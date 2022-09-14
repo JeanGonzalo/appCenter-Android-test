@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        AppCenter.start(getApplication(), "8b3e1fcb-8378-4f3a-b09b-ac30cc0661ab", Analytics.class, Crashes.class);
+        AppCenter.start(getApplication(), "249f8ecb-92f9-4614-b7c9-fcb465b956a2", Analytics.class, Crashes.class);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
